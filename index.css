@@ -1,0 +1,16 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#first_div{
+    height: 100%;
+    color: white;
+    font-weight: 300;
+    font-size: 222px;
+    padding-left: 20px;
+    background-color: #FFBB33;
+}
+#second_div{
+    height: 100%;
+}
