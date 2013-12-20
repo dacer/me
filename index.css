@@ -16,6 +16,24 @@ body,html{
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+nav{
+    visibility: hidden;
+    font-size: 35px;
+    color: white;
+    padding-left: 3%;
+    position:fixed;
+    top:0;
+    width:100%;
+    font-weight: 300;
+    background-color: #FFBB33;
+}
+#nav-name{
+    font-size: 35px;
+}
+
+#nav-im{
+    font-size: 15px;
+}
 #first-div{
     height: 100%;
     width: 100%;
@@ -26,7 +44,9 @@ body,html{
     color: white;
     width: 80%;
     font-weight: 300;
-    position: absolute; bottom: 2%; left: 3%;
+    position: absolute;
+    bottom: 0%;
+    left: 3%;
 }
 
 #second-div{
