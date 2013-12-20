@@ -23,8 +23,8 @@ body,html{
 }
 #first-div-content{
     color: white;
+    width:100%;
     font-weight: 300;
-    font-size: 12vw;
     position: absolute; bottom: 0; left: 20px;
 }
 
