@@ -6,7 +6,21 @@ $(window).resize(function() {
 
 $(document).ready(function() {
     $("#first-div-content").fitText(0.8);
+    $(".for-nav-padding").css("height", $("nav").height());
     originFontSize = parseInt($("#first-div-content").css('font-size'), 10);
+
+    //down arrow
+    $( "#first-div-arrow" ).click(function() {
+      $('html, body').animate({
+        scrollTop: $("#second-div").offset().top
+        }, 500);
+    });
+    $( "nav" ).click(function() {
+      $('html, body').animate({
+        scrollTop: $("#first-div").offset().top
+        }, 500);
+    });
+    
 });
 
 $(window).scroll(function () {
@@ -19,12 +33,10 @@ $(window).scroll(function () {
     if(nowFontSize > 35){
         $("#first-div-content").css("font-size", originFontSize*(1-scrollPercent));
     }
-//    $("#first-div-content").css("bottom", 0);
     if(topContentLeftHeight <= $("nav").height()){
         $("nav").css("visibility", "visible");
     }else{
         $("nav").css("visibility", "hidden");
     }
-
-//    $('#second-div').text("You've scrolled " + scrollPercent + " percent"+",font size:"+originFontSize);
 });
+

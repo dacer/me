@@ -49,6 +49,14 @@ nav{
     left: 3%;
 }
 
+#first-div-arrow {
+    width: 80px;
+    height: 80px;
+    background:transparent url(pic/down-arrow.png) no-repeat;;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
 #second-div{
     height: 100%;
 }
