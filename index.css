@@ -24,9 +24,9 @@ body,html{
 }
 #first-div-content{
     color: white;
-    width:100%;
+    width: 80%;
     font-weight: 300;
-    position: absolute; bottom: 0; left: 20px;
+    position: absolute; bottom: 2%; left: 3%;
 }
 
 #second-div{
