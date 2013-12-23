@@ -26,6 +26,13 @@ nav{
     width:100%;
     font-weight: 300;
 }
+footer {
+    background: #fcfcfc;
+    padding: 30px 0 10px 0;
+    border-top: solid 1px #ddd;
+    text-align: center;
+    color: #666666;
+}
 #nav-name{
     font-size: 35px;
 }
