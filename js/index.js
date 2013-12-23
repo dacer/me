@@ -77,7 +77,7 @@ function autoRotateArrow(){
         timer = setTimeout(function() {
             ++degree;
             if(degree<=originDegree+180){rotate();}
-        },2);
+        },1);
     }
 }
 
