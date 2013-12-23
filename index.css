@@ -48,24 +48,38 @@ nav{
     left: 3%;
 }
 
-.down-div-arrow{
+#div-nav-arrow{
     width: 80px;
     height: 80px;
-    background:transparent url(pic/down-arrow.png) no-repeat;;
-    position: absolute;
-    /*bottom: 3%;*/
+    background:transparent url(pic/down-arrow.png) no-repeat;
+    position: fixed;
+    bottom: 3%;
     right: 3%;
 }
 #second-div{
     background-color: #95d330;
     height: 100%;
 }
-#second-div-content{
-    text-align: center;
-    width: 50%;
-    margin: auto auto;
+.div-floater{
+    float:left; height:50%; margin-bottom:-120px;
 }
-#thrid-div{
+.div-center-content{
+    clear:both; text-align: center; position:relative;
+}
+#android-logo{
+    margin: auto;
+    height: 153px;
+    width:130px;
+    background:transparent url(pic/android.png) no-repeat;
+}
+
+#third-div{
     background-color: #cc342d;
     height: 100%;
+}
+#ruby-logo{
+    margin: auto;
+    height: 153px;
+    width:130px;
+    background:transparent url(pic/ruby.png) no-repeat;
 }
