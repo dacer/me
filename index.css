@@ -25,7 +25,6 @@ nav{
     top:0;
     width:100%;
     font-weight: 300;
-    background-color: #FFBB33;
 }
 #nav-name{
     font-size: 35px;
@@ -49,14 +48,24 @@ nav{
     left: 3%;
 }
 
-#first-div-arrow {
+.down-div-arrow{
     width: 80px;
     height: 80px;
     background:transparent url(pic/down-arrow.png) no-repeat;;
     position: absolute;
-    bottom: 3%;
+    /*bottom: 3%;*/
     right: 3%;
 }
 #second-div{
+    background-color: #95d330;
+    height: 100%;
+}
+#second-div-content{
+    text-align: center;
+    width: 50%;
+    margin: auto auto;
+}
+#thrid-div{
+    background-color: #cc342d;
     height: 100%;
 }

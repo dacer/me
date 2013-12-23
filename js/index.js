@@ -15,6 +15,11 @@ $(document).ready(function() {
         scrollTop: $("#second-div").offset().top
         }, 500);
     });
+    $( "#second-div-arrow" ).click(function() {
+      $('html, body').animate({
+        scrollTop: $("#thrid-div").offset().top
+        }, 500);
+    });
     $( "nav" ).click(function() {
       $('html, body').animate({
         scrollTop: $("#first-div").offset().top
@@ -35,8 +40,11 @@ $(window).scroll(function () {
     }
     if(topContentLeftHeight <= $("nav").height()){
         $("nav").css("visibility", "visible");
+        $("#first-div-content").css("visibility", "hidden");
+
     }else{
         $("nav").css("visibility", "hidden");
+        $("#first-div-content").css("visibility", "visible");
     }
 });
 
